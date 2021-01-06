@@ -1,0 +1,223 @@
+/* Css Code for Assignment 1 */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+#header{
+    height: 50px;
+}
+.nav-menu ul{
+    list-style-type: none;
+    margin-right: 10%;
+    padding: 1%;
+
+}
+.nav-menu ul li{
+    float: right;
+    text-align: right;
+}
+
+.nav-menu ul li a{
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 20px;
+    padding-left: 5px;
+    color: #3E3E3E;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3E3E3E;
+}
+h1{
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 40px;
+    color: #363958;
+}
+h2{
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 20px;
+    color: #363958;
+
+}
+h3{
+    font-family: 'Roboto', sans-serif;
+}
+.first-section{
+    height: 1000px;
+    width: 100%;
+}
+.half{
+    width: 40%;
+    height: 500px;
+    float: left;
+}
+.first-half1{
+    margin-left: 10%;
+    padding-left: 2%;
+}
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: tomato;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.first-half2{
+    margin-right: 5%;
+    padding-right: 2%;
+}
+
+.half img{
+    display: block;
+    width:80%;
+    
+}
+.half > .color-h1{
+    color:#FF8367;
+}
+.second-half1{
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.second-half2{
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.second-half2 > p{
+    width: 80%;
+}
+
+.second-section{
+    width: 100%;
+    height:700px;
+    background-color: #F8F9FC;
+    background-repeat: no-repeat;
+}
+
+.second-section h2{
+    text-align: center;
+    position: relative;
+    top: 80px;
+}
+
+.color-red-h1{
+    color: #F46060;
+}
+
+.project-section{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.project{
+    width:28%;
+    float: left;
+    margin-right:4%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 13px;
+    box-shadow: 1px 3px 6px rgb(172, 171, 171);
+    margin-top: 180px;
+
+}
+.project-last{
+    margin-right: 0;
+}
+
+.project img{
+    width: 100%;
+}
+.project-head{
+    height:30px;
+}
+.third-section{
+    width: 100%;
+    height: 400px;
+}
+.work{
+    position: relative;
+    top: 50px;
+    width:60%;
+    margin: 0 auto;
+    height: 225px;
+    background-image: url("images/Group.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+.work-element{
+
+    float:left;
+}
+.work > .text h3{
+    font-family: Bebas Neue;
+    color:white;
+    font-size: 45px;
+    font-weight:500;
+    line-height: 20px;
+    letter-spacing: 3px;
+    position: relative;
+    top:56px;
+    left:40px;
+}
+.work > .contact-btn a{
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: tomato;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 14px;
+    position: relative;
+    top: 100px;
+    left: 500px;
+
+}
+
+.footer-text h4{
+    text-align: center;
+    font-family: 'Bebas Neue';
+    color: #696871;
+
+}
+.footer-text h3{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #363958;
+    ;
+}
+
+.footer-social{
+    margin: 0 auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.footer-social img{
+    width: 40px;
+    margin-left: 10px;
+    
+}
+
+
+
+
